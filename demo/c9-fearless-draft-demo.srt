@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:17,989
+Welcome to the Cloud9 Fearless Draft and Macro Scouting Engine, submitted to the Cloud9 and JetBrains Skies the Limit Hackathon for Category 2. In modern League of Legends, Fearless Draft permanently locks out champions chosen in earlier games, challenging coaches to track pool depletion across Best of Five series.
+
+2
+00:00:18,589 --> 00:00:32,394
+The engine features a deterministic state machine enforcing both Hard and Soft Fearless draft rules. In Hard Fearless, any champion selected in earlier games is barred for both teams, rejecting illegal picks with immediate runtime validation.
+
+3
+00:00:32,994 --> 00:00:47,417
+To give Cloud9 a decisive tactical edge, the engine scans opponent champion depth. When an opposing player's comfort pool drops to two or fewer champions, it triggers an automated choke point alert, recommending targeted bans to suffocate their draft.
+
+4
+00:00:48,017 --> 00:01:02,097
+During active draft turns, the recommender calculates multi-objective scores balancing historical player mastery, pairwise composition synergy, and counter-pick advantages against locked enemy picks, delivering high-confidence suggestions in milliseconds.
+
+5
+00:01:02,697 --> 00:01:16,023
+The platform is deployed live on GitHub Pages with an interactive draft board. Coaches and analysts can simulate complete Best of Five series, inspect champion lockouts, and explore live recommendations with zero setup required.
+
+6
+00:01:16,623 --> 00:01:32,211
+The complete implementation is verified by eleven passing automated tests covering data parsing, rule enforcement, and API contracts. The code is open source on GitHub under the MIT license at github dot com slash sidsri fourteen slash c9 fearless draft.
