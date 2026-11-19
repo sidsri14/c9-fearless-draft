@@ -1,0 +1,41 @@
+# Official Hackathon Rule: Never commit GRID match data
+*.zst
+*.jsonl
+series.csv
+meta/
+data/
+cache/
+*.sqlite
+*.db
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+.venv/
+env/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
